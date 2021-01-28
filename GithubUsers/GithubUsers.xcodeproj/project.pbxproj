@@ -11,6 +11,10 @@
 		396C33989B478B32110F4734 /* Pods_UI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F2CDBBFE1ED6B661BA2188B /* Pods_UI.framework */; };
 		68B77D1F3A8BB74F29D035E5 /* Pods_Model.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07613D171675626A2FB1DD43 /* Pods_Model.framework */; };
 		77B87409BE1DA86C7A33988D /* Pods_Data.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A98DECB56E4C6B5D8956E4A /* Pods_Data.framework */; };
+		AE4113CC25C2001800833AEE /* UserDefaultsGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4113CB25C2001800833AEE /* UserDefaultsGateway.swift */; };
+		AE41140625C279E600833AEE /* LocalGatewayType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE41140525C279E600833AEE /* LocalGatewayType.swift */; };
+		AE41140C25C284CB00833AEE /* FileSystemGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE41140B25C284CB00833AEE /* FileSystemGateway.swift */; };
+		AE41141225C28A9600833AEE /* FileSystemGatewayType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE41141125C28A9600833AEE /* FileSystemGatewayType.swift */; };
 		AE55199625C1C1DB00ACC898 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE55199525C1C1DB00ACC898 /* AppDelegate.swift */; };
 		AE5519A025C1C1DB00ACC898 /* GithubUsers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE55199E25C1C1DB00ACC898 /* GithubUsers.xcdatamodeld */; };
 		AE5519A225C1C1DC00ACC898 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE5519A125C1C1DC00ACC898 /* Assets.xcassets */; };
@@ -31,6 +35,9 @@
 		AE551A3425C1EE8A00ACC898 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE551A3325C1EE8A00ACC898 /* Repository.swift */; };
 		AE551A3C25C1F04F00ACC898 /* DateDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE551A3B25C1F04F00ACC898 /* DateDecoder.swift */; };
 		AE551A4225C1F12000ACC898 /* DateFormatter+Formats.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE551A4125C1F12000ACC898 /* DateFormatter+Formats.swift */; };
+		AE551A4925C1F48700ACC898 /* NetworkGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE551A4825C1F48700ACC898 /* NetworkGateway.swift */; };
+		AE551A5025C1F52200ACC898 /* GatewayFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE551A4F25C1F52200ACC898 /* GatewayFactory.swift */; };
+		AE551A5A25C1F66A00ACC898 /* NetworkGatewayType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE551A5925C1F66A00ACC898 /* NetworkGatewayType.swift */; };
 		E42F643B9B97C45807CB4918 /* Pods_GithubUsers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DA4E49B03D01149F0597F30 /* Pods_GithubUsers.framework */; };
 /* End PBXBuildFile section */
 
@@ -95,6 +102,10 @@
 		6FCF948F62C0F266342F1A8B /* Pods-GithubUsers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GithubUsers.debug.xcconfig"; path = "Target Support Files/Pods-GithubUsers/Pods-GithubUsers.debug.xcconfig"; sourceTree = "<group>"; };
 		74B63BA1AB7F9A78582997C8 /* Pods-UI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UI.debug.xcconfig"; path = "Target Support Files/Pods-UI/Pods-UI.debug.xcconfig"; sourceTree = "<group>"; };
 		7A98DECB56E4C6B5D8956E4A /* Pods_Data.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Data.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE4113CB25C2001800833AEE /* UserDefaultsGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsGateway.swift; sourceTree = "<group>"; };
+		AE41140525C279E600833AEE /* LocalGatewayType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalGatewayType.swift; sourceTree = "<group>"; };
+		AE41140B25C284CB00833AEE /* FileSystemGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSystemGateway.swift; sourceTree = "<group>"; };
+		AE41141125C28A9600833AEE /* FileSystemGatewayType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSystemGatewayType.swift; sourceTree = "<group>"; };
 		AE55199225C1C1DB00ACC898 /* GithubUsers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubUsers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE55199525C1C1DB00ACC898 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE55199F25C1C1DB00ACC898 /* GithubUsers.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GithubUsers.xcdatamodel; sourceTree = "<group>"; };
@@ -117,6 +128,9 @@
 		AE551A3325C1EE8A00ACC898 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		AE551A3B25C1F04F00ACC898 /* DateDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateDecoder.swift; sourceTree = "<group>"; };
 		AE551A4125C1F12000ACC898 /* DateFormatter+Formats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Formats.swift"; sourceTree = "<group>"; };
+		AE551A4825C1F48700ACC898 /* NetworkGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkGateway.swift; sourceTree = "<group>"; };
+		AE551A4F25C1F52200ACC898 /* GatewayFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GatewayFactory.swift; sourceTree = "<group>"; };
+		AE551A5925C1F66A00ACC898 /* NetworkGatewayType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkGatewayType.swift; sourceTree = "<group>"; };
 		B18962A1C549716B69A77694 /* Pods-UI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UI.release.xcconfig"; path = "Target Support Files/Pods-UI/Pods-UI.release.xcconfig"; sourceTree = "<group>"; };
 		C10FF2C41E5A0C7D3536A0D9 /* Pods-Model.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Model.debug.xcconfig"; path = "Target Support Files/Pods-Model/Pods-Model.debug.xcconfig"; sourceTree = "<group>"; };
 		DFEEB49DFD7C557525AFDB68 /* Pods-Service.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Service.debug.xcconfig"; path = "Target Support Files/Pods-Service/Pods-Service.debug.xcconfig"; sourceTree = "<group>"; };
@@ -170,6 +184,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE4113CA25C2000400833AEE /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				AE4113CB25C2001800833AEE /* UserDefaultsGateway.swift */,
+				AE41140B25C284CB00833AEE /* FileSystemGateway.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
 		AE55198925C1C1DB00ACC898 = {
 			isa = PBXGroup;
 			children = (
@@ -229,6 +252,9 @@
 		AE551A0325C1C93200ACC898 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				AE551A4E25C1F51700ACC898 /* General */,
+				AE551A4725C1F47500ACC898 /* Network */,
+				AE4113CA25C2000400833AEE /* Local */,
 				AE551A0425C1C93200ACC898 /* Data.h */,
 				AE551A0525C1C93200ACC898 /* Info.plist */,
 			);
@@ -262,6 +288,33 @@
 				AE551A4125C1F12000ACC898 /* DateFormatter+Formats.swift */,
 			);
 			path = Library;
+			sourceTree = "<group>";
+		};
+		AE551A4725C1F47500ACC898 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				AE551A4825C1F48700ACC898 /* NetworkGateway.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		AE551A4E25C1F51700ACC898 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				AE551A4F25C1F52200ACC898 /* GatewayFactory.swift */,
+				AEE4550225C28C820028D128 /* Protocols */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		AEE4550225C28C820028D128 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				AE551A5925C1F66A00ACC898 /* NetworkGatewayType.swift */,
+				AE41140525C279E600833AEE /* LocalGatewayType.swift */,
+				AE41141125C28A9600833AEE /* FileSystemGatewayType.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		B560DE377AA2E8E054460663 /* Pods */ = {
@@ -451,6 +504,7 @@
 					};
 					AE551A0125C1C93200ACC898 = {
 						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1220;
 					};
 					AE551A1525C1C93700ACC898 = {
 						CreatedOnToolsVersion = 12.2;
@@ -678,6 +732,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE551A5A25C1F66A00ACC898 /* NetworkGatewayType.swift in Sources */,
+				AE4113CC25C2001800833AEE /* UserDefaultsGateway.swift in Sources */,
+				AE551A4925C1F48700ACC898 /* NetworkGateway.swift in Sources */,
+				AE551A5025C1F52200ACC898 /* GatewayFactory.swift in Sources */,
+				AE41140625C279E600833AEE /* LocalGatewayType.swift in Sources */,
+				AE41140C25C284CB00833AEE /* FileSystemGateway.swift in Sources */,
+				AE41141225C28A9600833AEE /* FileSystemGatewayType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -849,7 +910,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6FCF948F62C0F266342F1A8B /* Pods-GithubUsers.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -870,7 +931,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 01D767758AC5D2526780F61A /* Pods-GithubUsers.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -1003,6 +1064,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 081634E804B790D952D2DBA0 /* Pods-Data.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -1020,6 +1082,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.krotov.Data;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1031,6 +1094,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 22F37BD4EA0832FB54DAF1F3 /* Pods-Data.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;

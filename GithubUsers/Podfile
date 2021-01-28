@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+platform :ios, '14.2'
 
 target 'Data' do
   # Comment the next line if you don't want to use dynamic frameworks
@@ -8,6 +8,7 @@ target 'Data' do
   # Pods for Data
   pod 'RxSwift', '~> 6.0.0'
   pod 'RxCocoa', '~> 6.0.0'
+  pod 'RxDataSources', '~> 5.0'
 end
 
 target 'GithubUsers' do
@@ -17,6 +18,7 @@ target 'GithubUsers' do
   # Pods for GithubUsers
   pod 'RxSwift', '~> 6.0.0'
   pod 'RxCocoa', '~> 6.0.0'
+  pod 'RxDataSources', '~> 5.0'
 end
 
 target 'Model' do
@@ -34,6 +36,7 @@ target 'Service' do
   # Pods for Service
   pod 'RxSwift', '~> 6.0.0'
   pod 'RxCocoa', '~> 6.0.0'
+  pod 'RxDataSources', '~> 5.0'
 end
 
 target 'UI' do
@@ -43,4 +46,5 @@ target 'UI' do
   # Pods for UI
   pod 'RxSwift', '~> 6.0.0'
   pod 'RxCocoa', '~> 6.0.0'
+  pod 'RxDataSources', '~> 5.0'
 end
