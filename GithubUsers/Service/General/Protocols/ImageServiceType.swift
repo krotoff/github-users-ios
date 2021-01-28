@@ -6,3 +6,10 @@
 //
 
 import Foundation
+import RxSwift
+
+public protocol ImageServiceType {
+    var imagesData: BehaviorSubject<[Int: Data]> { get }
+    
+    func getImages(for users: [Int: String])
+}

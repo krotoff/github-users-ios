@@ -17,7 +17,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     private var serviceFactory: ServiceFactory!
     private let gatewayFactory = GatewayFactory()
-    private let db = DisposeBag()
     
     // MARK: - UIApplicationDelegate methods
     
