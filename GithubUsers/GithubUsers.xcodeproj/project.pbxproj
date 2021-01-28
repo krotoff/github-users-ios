@@ -16,7 +16,6 @@
 		AE41140C25C284CB00833AEE /* FileSystemGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE41140B25C284CB00833AEE /* FileSystemGateway.swift */; };
 		AE41141225C28A9600833AEE /* FileSystemGatewayType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE41141125C28A9600833AEE /* FileSystemGatewayType.swift */; };
 		AE55199625C1C1DB00ACC898 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE55199525C1C1DB00ACC898 /* AppDelegate.swift */; };
-		AE5519A025C1C1DB00ACC898 /* GithubUsers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE55199E25C1C1DB00ACC898 /* GithubUsers.xcdatamodeld */; };
 		AE5519A225C1C1DC00ACC898 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE5519A125C1C1DC00ACC898 /* Assets.xcassets */; };
 		AE5519A525C1C1DC00ACC898 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE5519A325C1C1DC00ACC898 /* LaunchScreen.storyboard */; };
 		AE5519E025C1C91C00ACC898 /* UI.h in Headers */ = {isa = PBXBuildFile; fileRef = AE5519DE25C1C91C00ACC898 /* UI.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,6 +37,13 @@
 		AE551A4925C1F48700ACC898 /* NetworkGateway.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE551A4825C1F48700ACC898 /* NetworkGateway.swift */; };
 		AE551A5025C1F52200ACC898 /* GatewayFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE551A4F25C1F52200ACC898 /* GatewayFactory.swift */; };
 		AE551A5A25C1F66A00ACC898 /* NetworkGatewayType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE551A5925C1F66A00ACC898 /* NetworkGatewayType.swift */; };
+		AED5F8C825C29CBB009ADDEE /* UsersServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED5F8C725C29CBB009ADDEE /* UsersServiceType.swift */; };
+		AED5F8CE25C2A54D009ADDEE /* ImageServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED5F8CD25C2A54D009ADDEE /* ImageServiceType.swift */; };
+		AEE4550525C28D000028D128 /* UsersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE4550425C28D000028D128 /* UsersService.swift */; };
+		AEE4550B25C28D0F0028D128 /* RepositoriesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE4550A25C28D0F0028D128 /* RepositoriesService.swift */; };
+		AEE4551125C28D180028D128 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE4551025C28D180028D128 /* ImageService.swift */; };
+		AEE4551725C28D5B0028D128 /* ServiceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE4551625C28D5B0028D128 /* ServiceFactory.swift */; };
+		AEE4552325C298F40028D128 /* RepositoriesServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE4552225C298F40028D128 /* RepositoriesServiceType.swift */; };
 		E42F643B9B97C45807CB4918 /* Pods_GithubUsers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DA4E49B03D01149F0597F30 /* Pods_GithubUsers.framework */; };
 /* End PBXBuildFile section */
 
@@ -108,7 +114,6 @@
 		AE41141125C28A9600833AEE /* FileSystemGatewayType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSystemGatewayType.swift; sourceTree = "<group>"; };
 		AE55199225C1C1DB00ACC898 /* GithubUsers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubUsers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE55199525C1C1DB00ACC898 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AE55199F25C1C1DB00ACC898 /* GithubUsers.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GithubUsers.xcdatamodel; sourceTree = "<group>"; };
 		AE5519A125C1C1DC00ACC898 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE5519A425C1C1DC00ACC898 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE5519A625C1C1DC00ACC898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -131,6 +136,13 @@
 		AE551A4825C1F48700ACC898 /* NetworkGateway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkGateway.swift; sourceTree = "<group>"; };
 		AE551A4F25C1F52200ACC898 /* GatewayFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GatewayFactory.swift; sourceTree = "<group>"; };
 		AE551A5925C1F66A00ACC898 /* NetworkGatewayType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkGatewayType.swift; sourceTree = "<group>"; };
+		AED5F8C725C29CBB009ADDEE /* UsersServiceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersServiceType.swift; sourceTree = "<group>"; };
+		AED5F8CD25C2A54D009ADDEE /* ImageServiceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageServiceType.swift; sourceTree = "<group>"; };
+		AEE4550425C28D000028D128 /* UsersService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersService.swift; sourceTree = "<group>"; };
+		AEE4550A25C28D0F0028D128 /* RepositoriesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesService.swift; sourceTree = "<group>"; };
+		AEE4551025C28D180028D128 /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		AEE4551625C28D5B0028D128 /* ServiceFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceFactory.swift; sourceTree = "<group>"; };
+		AEE4552225C298F40028D128 /* RepositoriesServiceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesServiceType.swift; sourceTree = "<group>"; };
 		B18962A1C549716B69A77694 /* Pods-UI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UI.release.xcconfig"; path = "Target Support Files/Pods-UI/Pods-UI.release.xcconfig"; sourceTree = "<group>"; };
 		C10FF2C41E5A0C7D3536A0D9 /* Pods-Model.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Model.debug.xcconfig"; path = "Target Support Files/Pods-Model/Pods-Model.debug.xcconfig"; sourceTree = "<group>"; };
 		DFEEB49DFD7C557525AFDB68 /* Pods-Service.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Service.debug.xcconfig"; path = "Target Support Files/Pods-Service/Pods-Service.debug.xcconfig"; sourceTree = "<group>"; };
@@ -226,7 +238,6 @@
 				AE5519A125C1C1DC00ACC898 /* Assets.xcassets */,
 				AE5519A325C1C1DC00ACC898 /* LaunchScreen.storyboard */,
 				AE5519A625C1C1DC00ACC898 /* Info.plist */,
-				AE55199E25C1C1DB00ACC898 /* GithubUsers.xcdatamodeld */,
 			);
 			path = GithubUsers;
 			sourceTree = "<group>";
@@ -243,6 +254,8 @@
 		AE5519F025C1C92B00ACC898 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				AEE4552125C298D30028D128 /* General */,
+				AEE4550325C28CF50028D128 /* Services */,
 				AE5519F125C1C92B00ACC898 /* Service.h */,
 				AE5519F225C1C92B00ACC898 /* Info.plist */,
 			);
@@ -315,6 +328,35 @@
 				AE41141125C28A9600833AEE /* FileSystemGatewayType.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		AEE4550325C28CF50028D128 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AEE4550425C28D000028D128 /* UsersService.swift */,
+				AEE4550A25C28D0F0028D128 /* RepositoriesService.swift */,
+				AEE4551025C28D180028D128 /* ImageService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AEE4552025C298CD0028D128 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				AEE4552225C298F40028D128 /* RepositoriesServiceType.swift */,
+				AED5F8C725C29CBB009ADDEE /* UsersServiceType.swift */,
+				AED5F8CD25C2A54D009ADDEE /* ImageServiceType.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		AEE4552125C298D30028D128 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				AEE4551625C28D5B0028D128 /* ServiceFactory.swift */,
+				AEE4552025C298CD0028D128 /* Protocols */,
+			);
+			path = General;
 			sourceTree = "<group>";
 		};
 		B560DE377AA2E8E054460663 /* Pods */ = {
@@ -501,6 +543,7 @@
 					};
 					AE5519EE25C1C92B00ACC898 = {
 						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1220;
 					};
 					AE551A0125C1C93200ACC898 = {
 						CreatedOnToolsVersion = 12.2;
@@ -709,7 +752,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE5519A025C1C1DB00ACC898 /* GithubUsers.xcdatamodeld in Sources */,
 				AE55199625C1C1DB00ACC898 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -725,6 +767,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEE4551725C28D5B0028D128 /* ServiceFactory.swift in Sources */,
+				AEE4550525C28D000028D128 /* UsersService.swift in Sources */,
+				AED5F8CE25C2A54D009ADDEE /* ImageServiceType.swift in Sources */,
+				AEE4552325C298F40028D128 /* RepositoriesServiceType.swift in Sources */,
+				AEE4550B25C28D0F0028D128 /* RepositoriesService.swift in Sources */,
+				AED5F8C825C29CBB009ADDEE /* UsersServiceType.swift in Sources */,
+				AEE4551125C28D180028D128 /* ImageService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1008,6 +1057,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DFEEB49DFD7C557525AFDB68 /* Pods-Service.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -1025,6 +1075,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.krotov.Service;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1036,6 +1087,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4F5BED358C84C2DAABBFB142 /* Pods-Service.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -1236,19 +1288,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		AE55199E25C1C1DB00ACC898 /* GithubUsers.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				AE55199F25C1C1DB00ACC898 /* GithubUsers.xcdatamodel */,
-			);
-			currentVersion = AE55199F25C1C1DB00ACC898 /* GithubUsers.xcdatamodel */;
-			path = GithubUsers.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = AE55198A25C1C1DB00ACC898 /* Project object */;
 }
