@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct User: Codable {
+public struct User: Codable {
     
     // MARK: - Private types
     
@@ -19,7 +19,7 @@ struct User: Codable {
     
     // MARK: - Private properties
     
-    private let login: String
-    private let avatarURL: String
-    private let reposURL: String
+    public let login: String
+    public let avatarURL: String
+    public let reposURL: String
 }

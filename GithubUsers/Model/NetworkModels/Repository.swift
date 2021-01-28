@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Repository: Codable {
+public struct Repository: Codable {
     
     // MARK: - Private types
     
@@ -21,15 +21,15 @@ struct Repository: Codable {
     
     // MARK: - Private properties
     
-    private let id: Int
-    private let size: Int // KBs
-    private let createdAt: Date
-    private let description: String?
-    private let fork: Bool
+    public let id: Int
+    public let size: Int // KBs
+    public let createdAt: Date
+    public let description: String?
+    public let fork: Bool
     
     // MARK: - Initialization
     
-    init(from decoder: Decoder) throws {
+    public init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         
         id = try container.decode(Int.self, forKey: .id)
