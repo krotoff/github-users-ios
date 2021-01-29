@@ -35,8 +35,31 @@ public final class ServiceFactory {
     }
 }
 
-public enum DataSourceState<Element> {
+public enum DataSourceState<Element: Equatable> {
     case isLoading
     case isFailed(error: Error)
     case isReady(source: [Element])
+}
+
+extension DataSourceState: Equatable {
+    public static func == (lhs: DataSourceState<Element>, rhs: DataSourceState<Element>) -> Bool {
+        switch lhs {
+        case .isLoading:
+            return rhs == .isLoading
+        case .isFailed(let lhsError):
+            switch rhs {
+            case .isFailed(let rhsError):
+                return lhsError.localizedDescription == rhsError.localizedDescription
+            default:
+                return false
+            }
+        case .isReady(let lhsSource):
+            switch rhs {
+            case .isReady(let rhsSource):
+                return lhsSource == rhsSource
+            default:
+                return false
+            }
+        }
+    }
 }

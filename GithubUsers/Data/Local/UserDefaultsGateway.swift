@@ -21,5 +21,5 @@ final class UserDefaultsGateway: LocalGatewayType {
         storage.setValue(value, forKey: key)
     }
     
-    func observeArray<DataType: Hashable>(key: String) -> Observable<[DataType]?> { storage.rx.observe([DataType].self, key) }
+    func observeArray<DataType>(key: String) -> Observable<[DataType]?> { storage.rx.observe([DataType].self, key) }
 }

@@ -44,6 +44,22 @@
 		AEE4551125C28D180028D128 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE4551025C28D180028D128 /* ImageService.swift */; };
 		AEE4551725C28D5B0028D128 /* ServiceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE4551625C28D5B0028D128 /* ServiceFactory.swift */; };
 		AEE4552325C298F40028D128 /* RepositoriesServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEE4552225C298F40028D128 /* RepositoriesServiceType.swift */; };
+		AEF35CFE25C2D01D00A7F13F /* RepositoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF35CFD25C2D01D00A7F13F /* RepositoryListViewController.swift */; };
+		AEF35D0725C2D23800A7F13F /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF35D0625C2D23800A7F13F /* Coordinator.swift */; };
+		AEF35D0D25C2D2E400A7F13F /* CoordinatableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF35D0C25C2D2E400A7F13F /* CoordinatableViewController.swift */; };
+		AEF35D1425C2D39E00A7F13F /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF35D1325C2D39E00A7F13F /* UIView.swift */; };
+		AEF35D1E25C2D61A00A7F13F /* RepositoryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF35D1D25C2D61A00A7F13F /* RepositoryListViewModel.swift */; };
+		AEF35D2525C2E6DF00A7F13F /* UserSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF35D2425C2E6DF00A7F13F /* UserSectionHeaderView.swift */; };
+		AEF35D2B25C2E7B400A7F13F /* RepositoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF35D2A25C2E7B400A7F13F /* RepositoryTableViewCell.swift */; };
+		AEF35D3125C2F05400A7F13F /* RepositoryListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF35D3025C2F05400A7F13F /* RepositoryListCoordinator.swift */; };
+		AEF35D3B25C318DE00A7F13F /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF35D3A25C318DE00A7F13F /* AppCoordinator.swift */; };
+		AEF35D4125C31C4700A7F13F /* UserSectionFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF35D4025C31C4600A7F13F /* UserSectionFooterView.swift */; };
+		AEF35D4725C3224C00A7F13F /* RepositoryDetailsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF35D4625C3224C00A7F13F /* RepositoryDetailsCoordinator.swift */; };
+		AEF35D4D25C3226A00A7F13F /* RepositoryDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF35D4C25C3226A00A7F13F /* RepositoryDetailsViewController.swift */; };
+		AEF35D5325C3227200A7F13F /* RepositoryDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF35D5225C3227200A7F13F /* RepositoryDetailsViewModel.swift */; };
+		AEF35D5E25C3290600A7F13F /* TitleAndValueTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF35D5D25C3290600A7F13F /* TitleAndValueTableViewCell.swift */; };
+		AEF35D6425C3299500A7F13F /* TitleAndSwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF35D6325C3299500A7F13F /* TitleAndSwitchTableViewCell.swift */; };
+		AEF35D6A25C329CE00A7F13F /* TitleAndDescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF35D6925C329CE00A7F13F /* TitleAndDescriptionTableViewCell.swift */; };
 		E42F643B9B97C45807CB4918 /* Pods_GithubUsers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DA4E49B03D01149F0597F30 /* Pods_GithubUsers.framework */; };
 /* End PBXBuildFile section */
 
@@ -143,6 +159,22 @@
 		AEE4551025C28D180028D128 /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
 		AEE4551625C28D5B0028D128 /* ServiceFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceFactory.swift; sourceTree = "<group>"; };
 		AEE4552225C298F40028D128 /* RepositoriesServiceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesServiceType.swift; sourceTree = "<group>"; };
+		AEF35CFD25C2D01D00A7F13F /* RepositoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListViewController.swift; sourceTree = "<group>"; };
+		AEF35D0625C2D23800A7F13F /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		AEF35D0C25C2D2E400A7F13F /* CoordinatableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatableViewController.swift; sourceTree = "<group>"; };
+		AEF35D1325C2D39E00A7F13F /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		AEF35D1D25C2D61A00A7F13F /* RepositoryListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListViewModel.swift; sourceTree = "<group>"; };
+		AEF35D2425C2E6DF00A7F13F /* UserSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSectionHeaderView.swift; sourceTree = "<group>"; };
+		AEF35D2A25C2E7B400A7F13F /* RepositoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryTableViewCell.swift; sourceTree = "<group>"; };
+		AEF35D3025C2F05400A7F13F /* RepositoryListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListCoordinator.swift; sourceTree = "<group>"; };
+		AEF35D3A25C318DE00A7F13F /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		AEF35D4025C31C4600A7F13F /* UserSectionFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSectionFooterView.swift; sourceTree = "<group>"; };
+		AEF35D4625C3224C00A7F13F /* RepositoryDetailsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryDetailsCoordinator.swift; sourceTree = "<group>"; };
+		AEF35D4C25C3226A00A7F13F /* RepositoryDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryDetailsViewController.swift; sourceTree = "<group>"; };
+		AEF35D5225C3227200A7F13F /* RepositoryDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryDetailsViewModel.swift; sourceTree = "<group>"; };
+		AEF35D5D25C3290600A7F13F /* TitleAndValueTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleAndValueTableViewCell.swift; sourceTree = "<group>"; };
+		AEF35D6325C3299500A7F13F /* TitleAndSwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleAndSwitchTableViewCell.swift; sourceTree = "<group>"; };
+		AEF35D6925C329CE00A7F13F /* TitleAndDescriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleAndDescriptionTableViewCell.swift; sourceTree = "<group>"; };
 		B18962A1C549716B69A77694 /* Pods-UI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UI.release.xcconfig"; path = "Target Support Files/Pods-UI/Pods-UI.release.xcconfig"; sourceTree = "<group>"; };
 		C10FF2C41E5A0C7D3536A0D9 /* Pods-Model.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Model.debug.xcconfig"; path = "Target Support Files/Pods-Model/Pods-Model.debug.xcconfig"; sourceTree = "<group>"; };
 		DFEEB49DFD7C557525AFDB68 /* Pods-Service.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Service.debug.xcconfig"; path = "Target Support Files/Pods-Service/Pods-Service.debug.xcconfig"; sourceTree = "<group>"; };
@@ -235,6 +267,7 @@
 			isa = PBXGroup;
 			children = (
 				AE55199525C1C1DB00ACC898 /* AppDelegate.swift */,
+				AEF35D3A25C318DE00A7F13F /* AppCoordinator.swift */,
 				AE5519A125C1C1DC00ACC898 /* Assets.xcassets */,
 				AE5519A325C1C1DC00ACC898 /* LaunchScreen.storyboard */,
 				AE5519A625C1C1DC00ACC898 /* Info.plist */,
@@ -245,6 +278,8 @@
 		AE5519DD25C1C91C00ACC898 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				AEF35D0325C2D20600A7F13F /* Library */,
+				AEF35CF925C2B1A500A7F13F /* Flows */,
 				AE5519DE25C1C91C00ACC898 /* UI.h */,
 				AE5519DF25C1C91C00ACC898 /* Info.plist */,
 			);
@@ -357,6 +392,91 @@
 				AEE4552025C298CD0028D128 /* Protocols */,
 			);
 			path = General;
+			sourceTree = "<group>";
+		};
+		AEF35CF925C2B1A500A7F13F /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				AEF35CFA25C2B1AD00A7F13F /* Main */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		AEF35CFA25C2B1AD00A7F13F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				AEF35CFB25C2B1D000A7F13F /* RepositoryList */,
+				AEF35CFC25C2B23900A7F13F /* RepositoryDetails */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		AEF35CFB25C2B1D000A7F13F /* RepositoryList */ = {
+			isa = PBXGroup;
+			children = (
+				AEF35D2325C2E69E00A7F13F /* Cells */,
+				AEF35D3025C2F05400A7F13F /* RepositoryListCoordinator.swift */,
+				AEF35CFD25C2D01D00A7F13F /* RepositoryListViewController.swift */,
+				AEF35D1D25C2D61A00A7F13F /* RepositoryListViewModel.swift */,
+			);
+			path = RepositoryList;
+			sourceTree = "<group>";
+		};
+		AEF35CFC25C2B23900A7F13F /* RepositoryDetails */ = {
+			isa = PBXGroup;
+			children = (
+				AEF35D5C25C328F200A7F13F /* Cells */,
+				AEF35D4625C3224C00A7F13F /* RepositoryDetailsCoordinator.swift */,
+				AEF35D4C25C3226A00A7F13F /* RepositoryDetailsViewController.swift */,
+				AEF35D5225C3227200A7F13F /* RepositoryDetailsViewModel.swift */,
+			);
+			path = RepositoryDetails;
+			sourceTree = "<group>";
+		};
+		AEF35D0325C2D20600A7F13F /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				AEF35D1225C2D35900A7F13F /* Layout */,
+				AEF35D0425C2D21C00A7F13F /* Coordinator */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		AEF35D0425C2D21C00A7F13F /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				AEF35D0625C2D23800A7F13F /* Coordinator.swift */,
+				AEF35D0C25C2D2E400A7F13F /* CoordinatableViewController.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		AEF35D1225C2D35900A7F13F /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				AEF35D1325C2D39E00A7F13F /* UIView.swift */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		AEF35D2325C2E69E00A7F13F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AEF35D2425C2E6DF00A7F13F /* UserSectionHeaderView.swift */,
+				AEF35D4025C31C4600A7F13F /* UserSectionFooterView.swift */,
+				AEF35D2A25C2E7B400A7F13F /* RepositoryTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		AEF35D5C25C328F200A7F13F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AEF35D5D25C3290600A7F13F /* TitleAndValueTableViewCell.swift */,
+				AEF35D6325C3299500A7F13F /* TitleAndSwitchTableViewCell.swift */,
+				AEF35D6925C329CE00A7F13F /* TitleAndDescriptionTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		B560DE377AA2E8E054460663 /* Pods */ = {
@@ -540,6 +660,7 @@
 					};
 					AE5519DB25C1C91C00ACC898 = {
 						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1220;
 					};
 					AE5519EE25C1C92B00ACC898 = {
 						CreatedOnToolsVersion = 12.2;
@@ -752,6 +873,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEF35D3B25C318DE00A7F13F /* AppCoordinator.swift in Sources */,
 				AE55199625C1C1DB00ACC898 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -760,6 +882,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEF35D1425C2D39E00A7F13F /* UIView.swift in Sources */,
+				AEF35D3125C2F05400A7F13F /* RepositoryListCoordinator.swift in Sources */,
+				AEF35D6425C3299500A7F13F /* TitleAndSwitchTableViewCell.swift in Sources */,
+				AEF35D0725C2D23800A7F13F /* Coordinator.swift in Sources */,
+				AEF35D4725C3224C00A7F13F /* RepositoryDetailsCoordinator.swift in Sources */,
+				AEF35D5E25C3290600A7F13F /* TitleAndValueTableViewCell.swift in Sources */,
+				AEF35D4D25C3226A00A7F13F /* RepositoryDetailsViewController.swift in Sources */,
+				AEF35D2B25C2E7B400A7F13F /* RepositoryTableViewCell.swift in Sources */,
+				AEF35D5325C3227200A7F13F /* RepositoryDetailsViewModel.swift in Sources */,
+				AEF35D2525C2E6DF00A7F13F /* UserSectionHeaderView.swift in Sources */,
+				AEF35CFE25C2D01D00A7F13F /* RepositoryListViewController.swift in Sources */,
+				AEF35D0D25C2D2E400A7F13F /* CoordinatableViewController.swift in Sources */,
+				AEF35D4125C31C4700A7F13F /* UserSectionFooterView.swift in Sources */,
+				AEF35D1E25C2D61A00A7F13F /* RepositoryListViewModel.swift in Sources */,
+				AEF35D6A25C329CE00A7F13F /* TitleAndDescriptionTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1001,6 +1138,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 74B63BA1AB7F9A78582997C8 /* Pods-UI.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -1018,6 +1156,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.krotov.UI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1029,6 +1168,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B18962A1C549716B69A77694 /* Pods-UI.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;

@@ -21,7 +21,7 @@ final class RepositoriesService: RepositoriesServiceType {
     
     private let local: LocalGatewayType
     private let network: NetworkGatewayType
-    private let likedRepositoriesKey = "github_users.liked_repositories_key"
+    private let likedRepositoriesKey = "liked_repositories_key"
     private var requestDisposeBag = DisposeBag()
     private let disposeBag = DisposeBag()
     
@@ -30,6 +30,8 @@ final class RepositoriesService: RepositoriesServiceType {
     init(local: LocalGatewayType, network: NetworkGatewayType) {
         self.local = local
         self.network = network
+        
+        bind()
     }
     
     // MARK: - Internal methods
